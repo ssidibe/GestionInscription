@@ -1,0 +1,3 @@
+asadmin create-jdbc-connection-pool --datasourceclassname com.mysql.cj.jdbc.MysqlDataSource --property "port=3306:password=passer:user=root:serverName=localhost:databaseName=ipsl_gestion_inscription:useSSL=false:autoReconnect=true:AllowPublicKeyRetrieval=true" gestionInscriPool
+asadmin ping-connection-pool gestionInscriPool
+asadmin create-jdbc-resource --connectionpoolid gestionInscriPool jdbc/GestionInscriPool

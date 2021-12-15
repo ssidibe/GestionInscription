@@ -1,0 +1,60 @@
+
+#entete {
+    width: 100%;
+    /* background-color: #036fab;*/
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    border: solid black 1px;
+    vertical-align: middle;
+}
+
+#entete div{
+    border-left: 5px solid black;
+    padding-left: 10px;
+}
+
+
+#entete div span{
+    display:block;
+    white-space: nowrap;
+}
+
+#piedPage {
+    /*position: relative;
+    background-color: #c2dfef;*/
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenueSansLateral {
+    margin: 10px 0px 0px 0px;
+}
+
+
+.ipslNameHeader{
+    font-size: 24px;
+}
+
+.appNameHeader{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin: 10px;
+}
+
+.minWidth{
+    width: 0px;
+}
+.maxWidth{
+    width: 100%;
+}
+
+
+
